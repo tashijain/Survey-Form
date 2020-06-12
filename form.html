@@ -1,0 +1,88 @@
+<h1 id="title">Survey Form</h1>
+<link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
+<div id="form-data">
+  <p id="description"><b><em>Let us know your interests  to make it efficient to divide into groups!</em></b></p>
+<form id="survey-form">
+  
+    <label for="name" id="name-label" class="labels">* Name:</label>
+  <div id="name-div">
+  <input id="name" class="input-fields" type="name" placeholder="Enter your name" required>
+  </div>
+  
+  <label for="email" class="labels" id="email-label">* Email:</label>
+    <div id="email-div">
+  <input id="email" class="input-fields"  type="email" placeholder="Enter your email" required>
+  </div>
+  
+
+  <label for="number" class="labels" id="number-label">* Age:</label>
+ <div id="age-div">
+  <input  autofocus id="number" class="input-fields"  type="number" min="1" max="120" placeholder="Age" required>
+  </div>
+  
+  
+    <label for="dropdown" class="labels" id="dropdown-label"> What is your Year Level?</label>
+  <div id="year-div">
+      <select id="dropdown">
+        <option disabled selected value>Select one option</option>
+        <option value="UG1">Undergrad Year 1</option>
+        <option value="UG2">Undergrad Year 2</option>
+        <option value="UG3">Undergrad Year 3</option>
+        <option value="UG4">Undergrad Year 4</option>
+        <option value="UG4+">Undergrad above Year 4</option>
+    </select>
+  </div>    
+  
+    <div class="labels">
+    <label>Which of these activities would be your first choice?</label>
+    </div>
+  <div id="radio-div">
+    <ul style="list-style: none;">
+    <li class="radio-list"><label for="Outdoor"><input type="radio" name="activities" value="1">Outdoor Sports</label></li>
+    <li class="radio-list"><label for="Indoor"><input type="radio" name="activities" value="2">Indoor Sports</label></li>
+    <li class="radio-list"><label for="music"><input type="radio" name="activities" value="3">Music</label></li>
+    <li class="radio-list"><label for="reading"><input type="radio" name="activities" value="4">Reading</label></li>
+    <li class="radio-list"><label for="traveling"><input type="radio" name="activities" value="5">Traveling</label></li>
+      <li class="radio-list"><label for="drawing"><input type="radio" name="activities" value="6">Drawing</label></li>
+    <li class="radio-list"><label for="Other"><input type="radio" name="activities" value="7">Other</label></li>
+  </div>
+
+    
+  
+    <div class="labels">
+    <label >What describes you best?<br>(Check all that apply):</label>
+    </div>
+    <div id="checkbox-div">
+    <ul style="list-style: none;">
+      <li class="checkbox-list"><label for="early">
+        <input id="early" type="checkbox" value="1" name="habits">Early riser</label></li>
+    <li class="checkbox-list"><label for="late">
+      <input id="late" type="checkbox" value="2" name="habits">Night Owl</label></li>
+    <li class="checkbox-list"><label for="tidy">
+      <input id="tidy" type="checkbox" value="3" name="habits">Tidy and Clean</label></li>
+    <li class="checkbox-list"><label for="messy">
+      <input id="messy" type="checkbox" value="4" name="habits">Messy and not a cleanliness freak</label></li>
+    <li class="checkbox-list"><label for="talkative">
+      <input id="talkative" type="checkbox" value="5" name="habits">Talkative</label></li>
+    <li class="checkbox-list"><label for="quiet">
+      <input id="quiet" type="checkbox" value="6" name="habits">Quiet and Shy</label></li>
+    <li class="checkbox-list"><label for="extrovert">
+      <input id="extrovert" type="checkbox" value="7" name="habits">Extrovert</label></li>
+    <li class="checkbox-list"><label for="introvert">
+      <input id="introvert" type="checkbox" value="8" name="habits">Introvert</label></li>
+  </div>
+  
+    <div class="labels">
+        <label for="more-abt-you">Any additional facts about you?<br> Feel free to discuss with us! </label>
+    </div>
+    <div id="add-facts">
+      <textarea class="input-fields" id="more-about-you" style="height:70px; resize: vertical;" placeholder="Add any interesting facts about you that you would like us to consider before grouping you..."></textarea>
+  </div>
+      <div id="button">
+  <button id="submit" type="submit">Submit</button>  
+      </div>
+</form>
+</div>
+    
+      
+  

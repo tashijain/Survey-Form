@@ -1,0 +1,66 @@
+body{
+    background-color: #33FF99;
+    text-align: center;
+    font-family: Literata, serif;
+  }
+  #title{
+    font-size: 2.5em;
+  }
+  #form-data{
+    background-color: #E6FFF7;
+    margin: 0 auto;
+    width: 75%;
+    border-radius: 5px;
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .labels{
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    margin-top: 10px;
+    width: 32%;
+    padding: 5px;
+  }
+  #name-div, #email-div, #age-div, #year-div, #radio-div, #checkbox-div, #add-facts {
+    display: inline-block;
+    width: 35%;  
+    vertical-align: middle;   
+  }
+  .input-fields{
+    height: 20px;
+    width: 250px;
+    text-align: left;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 1px;
+    margin-left: -40px;
+  }
+  #dropdown{
+    height: 30px;
+    width: 215px;
+    text-align: left;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 1px;
+    margin-left: -40px;
+  }
+  .radio-list, .checkbox-list {
+    display: block;
+    position: relative;
+    text-align: left;
+  }
+  #submit{
+    background-color: black;
+    font-family: Literata, serif;
+    height: 45px;
+    width: 80px;
+    font-size: 1em;
+    margin-top: 10px;
+    border-radius: 8px;;
+    color: white;
+  }
+  #submit:hover{
+    background-color: #4DA6FF;
+  }
